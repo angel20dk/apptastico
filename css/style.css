@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+
+}
+header{
+    background-color: rgb(76,91,101);
+    height: 508px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+   padding: 20px 0;
+   align-content: center;
+   background-color: rgb(76,91,101);
+   
+}
+ul{
+    width: 37%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+font-size: 18px;
+margin: 0 78px;
+}
+nav ul li:hover{
+    background: linear-gradient( #3d484f,10%, #49565f);
+    border-top: inset 2px #7f8d96;
+    border-bottom: inset 1.5px #5c6871;
+    border-radius: 20px;
+    padding:3px 17px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+nav ul li{
+align-items: center;
+}
+nav div{
+    width: 20%;
+    padding:0 0 0 110px;
+    
+}
+.imagen2{
+    width: 482px;
+    height: 508px;
+
+}
+header .di1{
+color: white;
+height: 300px;
+width: 469px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 0 0 80px ;
+}
+h1{
+    font-size: 50px;
+
+}
+.p1{
+ margin: 15px 0; 
+ line-height: 1.7;
+}
+.p2{
+    margin: 0 0 45px 0;
+    color: rgba(255, 255, 255, 0.397);
+    line-height: 1.7;
+}
+
+.di2{
+    display: flex;
+    justify-content: space-between;
+}
+.di2 p {
+    display: flex;
+    align-items: center;
+}
+.boton1{
+    background-color: rgb(58,142,207);
+    color: white;
+    padding: 12px 35px;
+    border-radius: 32px;
+    border:  rgb(58,142,207)  ;
+    border-top: 1px rgb(130, 188, 212) solid ;
+    font-size: 15px;
+    box-shadow: 3px 3px 5px 0px rgb(54, 54, 54);
+
+}
+#boton2{
+    background-color: rgb(76,91,101);
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+header{
+align-items: center;
+}
+.articulo1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: rgb(235,235,235);
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+.articulo2{
+    width: 100%;
+display: flex;
+justify-content: space-evenly;
+padding: 50px 0 ;
+align-items: center;
+flex-wrap: wrap;
+    
+}
+.articulo2 section{
+text-align: center;
+    width: 334px;
+    height: 400px;
+
+}
+.titulo1{
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    margin:30px 0 15px 0;
+}
+.articulo2 section p{
+    font-size: 15px;
+    line-height: 1.5;
+    color:rgba(36, 36, 36, 0.397);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.boton111{
+    margin:35px 0 0 0;
+    background-color: rgb(58,142,207);
+    color: white;
+    padding: 12px 35px;
+    border-radius: 6px;
+    border: 0.5px rgb(99, 180, 212) solid ;
+    font-size: 15px;
+
+}
+.seccion1{
+    margin: 35px 0 0 0;
+}
+.articulo3{
+    width: 100%;
+    height: 300px;
+    flex-wrap: wrap;
+}
+.articulo3_di{
+    display: flex;
+}
+.articulo3_di img{
+    margin: 0 0 20px 65px;
+}
+.articulo3_di p{
+    margin: 0 0 0 10px;
+    font-size: 25px;
+}
+.articulo3_di-1{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+
+}
+
+.menu{
+    width: 254px;
+    height: 180px;
+    border: double rgb(153, 153, 153);
+    margin: 10px;
+}
+.articulo4_1{
+    display: flex;
+}
+.articulo4_1 img{
+    margin: 0 0 20px ;
+}
+.articulo4_1 p{
+    margin: 0 0 0 10px;
+    font-size: 25px;
+}
+ .div1 p a{
+    text-decoration: none;
+    color: rgb(37, 37, 255);
+}
+.div2 a{
+    text-decoration: none;
+    color: rgb(37, 37, 255);
+}
+.imagen2_2{
+width: 125px;
+height: 120px;
+border: double;
+margin: 6px 0 0 0;
+}
+.articulo4{
+    width: 100%;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin: 0 0 40px ;
+}
+.div1{
+display: flex;
+justify-content: space-around;
+padding: 0 0 20px  0;
+}
+.div1 p{
+    padding: 0 0 0 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+}
+.div1 a{
+    padding: 0 0 0 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.t1{
+    font-size: 20px;
+    line-height: 1.8;
+}
+.art2 div{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.8;
+}
+.art2 div p a{
+    text-decoration: none;
+    color: rgb(37, 37, 255);
+}
+.ult_a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: rgb(37, 37, 255);
+    font-size: 17px;
+
+}
+.fecha{
+    color: rgba(75, 75, 75, 0.747);
+
+}
+.fecha1{
+    padding: 0 0 20px 0 ;
+}
+
+footer{
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -1px -2px 0px -1px #5a5a5a79;
+    margin: 0 100px;
+    padding: 20px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer div img{
+margin: 0 5px;
+}
+@media(max-width:1279px){
+header{
+   height: 400px;
+}
+header .di1{
+    margin: 0 0 0 15px;
+}
+.imagen2{
+    margin: 0 0 0 6px;
+    width: 300px;
+    height: 400px;
+}
+
+h1 {
+    font-size: 40px;
+}
+.p1 {
+    margin: 6px 0;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.p2 {
+    margin: 0 0 20px 0;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.di2{
+    width: 90%;
+}
+.boton1 {
+    padding: 9px 18px;
+}
+.articulo2{
+    flex-direction: column;
+}
+
+
+.articulo3{
+    height: auto;
+    padding: 0 0 30px;
+
+   }
+   .articulo3_di{
+    display: flex;
+justify-content: center;
+
+   }
+   .articulo3_di img{
+    margin: 0 0 20px 0;
+   }
+}
+.articulo3_di-1 img{
+ margin: 30px 10px ;
+}
+.articulo3_di-1{
+    flex-direction: row;
+    align-content: center;
+
+
+}
+
+
+
+@media(max-width:768px){
+    nav div {
+
+        padding: 0 0 0 10px;
+    }
+
+    ul {
+        width: 54%;
+
+        margin: 0 20px;
+    }
+    header{
+        display: flex;
+    flex-direction: column;
+
+    }
+    .imagen2 {
+        display: flex;
+    width: 432px;
+    margin: 0;
+
+    }
+
+    header .di1 {
+    
+            margin: -286px 6px 6px 15px;
+            width: 360px;
+            align-items: center;
+
+    }
+
+    h1 {
+        font-size: 31px;
+
+    }
+
+    .p1 {
+
+        font-size: 13px;
+    }
+    .p2{
+        color: rgb(192, 192, 192);;
+        font-size: 13px;
+    }
+    .di2{
+        width: 100%;
+        margin: 0;
+
+    }
+    .boton1{
+
+        font-size: 12px;
+
+    
+    }
+    #boton2{
+        background-color: rgba(76, 91, 101, 0);
+        font-size: 12px;
+    }
+    .articulo1 img{
+        width: 59px;
+        height: 39px;
+
+    }
+    .div1 p {
+    font-size: 14px;
+    } 
+    .div2 .t1{
+        font-size: 18px;
+    }
+    .art2 div{
+        font-size: 14px;
+    }
+    .articulo3{
+        height: auto;
+        padding: 0 0 30px;
+    }
+footer{
+    margin: 0 39px;
+}
+
+}
+
+@media(max-width:480px){
+    .imagen2 {
+
+        width: 336px;
+
+    }
+nav{
+    
+    flex-direction: column;
+
+    align-items: center;
+}
+nav div{
+    width: 38%;
+   padding: 0;
+}
+nav ul{
+    
+    width: 80%;
+    margin: 10px 0 0;
+}
+header .di1{
+    width: 293px;
+}
+.di1 h1{
+    font-size: 27px;
+}
+.imagen2{
+    width: 356px;
+}
+.articulo1 {
+ flex-wrap: wrap;
+}
+.articulo1 img{
+    margin: 7px;
+    width: 77px;
+    height: 51px;
+}
+.articulo4_1{
+    justify-content: center;
+    padding: 10px 0 0 0;
+}
+.ddiv22 p{
+    font-size: 13px;
+}
+.div2 .t1{
+    font-size: 17px;
+}
+.div1 p a{
+   padding: 0;
+}
+.art2 div{
+    padding: 0 20px;
+    text-align: center;
+}
+.ult_a{
+    display: flex;
+    justify-content: center;
+}
+footer {
+flex-direction: column;
+display: flex;
+align-items: center;
+
+}
+footer p{
+    padding: 0 0 12px;
+}
+}
