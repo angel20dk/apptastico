@@ -1,1 +1,4 @@
 # apptastico
+
+## Autor 
+Angel Hoyos
